@@ -978,25 +978,25 @@ local icons = {
   ["py"] = {
     icon = "",
     color = "#ffbc03",
-    cterm_color = "3",
+    cterm_color = "4",
     name = "Py",
   },
   ["pyc"] = {
     icon = "",
     color = "#ffe291",
-    cterm_color = "15",
+    cterm_color = "5",
     name = "Pyc",
   },
   ["pyd"] = {
     icon = "",
     color = "#ffe291",
-    cterm_color = "15",
+    cterm_color = "5",
     name = "Pyd",
   },
   ["pyo"] = {
     icon = "",
     color = "#ffe291",
-    cterm_color = "15",
+    cterm_color = "5",
     name = "Pyo",
   },
   ["r"] = {
