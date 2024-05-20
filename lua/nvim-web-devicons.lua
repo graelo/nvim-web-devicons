@@ -31,6 +31,13 @@
 --   color = "#ffa61a"
 -- },
 
+local default_icon = {
+  icon = "",
+  color = "#6d8086",
+  cterm_color = "14",
+  name = "Default",
+}
+
 -- When adding new icons, remember to add an entry to the `filetypes` table, if applicable.
 local icons = {
   [".babelrc"] = {
@@ -1686,8 +1693,13 @@ local function set_default_icon(icon, color, cterm_color)
   set_up_highlight(default_icon)
 end
 
+local function get_default_icon()
+  return default_icon
+end
+
 return {
   get_icon = get_icon,
+  get_default_icon = get_default_icon,
   get_icon_colors = get_icon_colors,
   get_icon_color = get_icon_color,
   get_icon_cterm_color = get_icon_cterm_color,
