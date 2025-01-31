@@ -1,5 +1,5 @@
 return {
-  ["budgie"]   = { icon = "", color = "#4E5361", cterm_color = "10", name = "Budgie"    },
+  ["budgie"]   = { icon = "", color = "#4E5361", cterm_color = "11", name = "Budgie"    },
   ["cinnamon"] = { icon = "", color = "#DC682E", cterm_color = "9", name = "Cinnamon"  },
   ["gnome"]    = { icon = "", color = "#FFFFFF", cterm_color = "14", name = "GNOME"     },
   ["lxde"]     = { icon = "", color = "#A4A4A4", cterm_color = "14", name = "LXDE"      },
