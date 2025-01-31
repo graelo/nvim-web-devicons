@@ -2,3 +2,6 @@
 .luarocks
 /vim-colortemplate/
 mini-align/
+
+.python-version
+uv.lock
