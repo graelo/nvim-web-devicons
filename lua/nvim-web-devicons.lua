@@ -18,7 +18,7 @@ local filetypes = require "nvim-web-devicons.filetypes"
 local default_icon = {
   icon = "",
   color = "#6d8086",
-  cterm_color = "66",
+  cterm_color = "11",
   name = "Default",
 }
 
@@ -294,7 +294,7 @@ function M.setup(opts)
 
   -- highlight test command
   vim.api.nvim_create_user_command("NvimWebDeviconsHiTest", function()
-    require "nvim-web-devicons.hi-test"(
+    require "nvim-web-devicons.hi-test" (
       default_icon,
       global_opts.override,
       icons_by_filename,
